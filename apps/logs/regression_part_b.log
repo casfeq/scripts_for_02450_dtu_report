@@ -1,0 +1,77 @@
+(1) Finding optimal number of hidden units for Artificial Neural Network.
+>> Predicted attribute: capital-gain
+Generalization error (5-fold cross-validation): 0.2488377910278843
+Generalization error (5-fold cross-validation): 0.23450510166937044
+Generalization error (5-fold cross-validation): 0.240462316829338
+Generalization error (5-fold cross-validation): 0.24454716463838228
+Generalization error (5-fold cross-validation): 0.2524786534242776
+Generalization error (5-fold cross-validation): 0.25809501965023224
+Generalization error (5-fold cross-validation): 0.2612016053049677
+Generalization error (5-fold cross-validation): 0.2694766177294864
+Generalization error (5-fold cross-validation): 0.27337002295702056
+Generalization error (5-fold cross-validation): 0.27388329522137494
+Generalization error (5-fold cross-validation): 0.2770914894081673
+Generalization error (5-fold cross-validation): 0.28512376613001483
+Generalization error (5-fold cross-validation): 0.2876987885952791
+Generalization error (5-fold cross-validation): 0.28994924871314076
+Generalization error (5-fold cross-validation): 0.29365007660447384
+>> Predicted attribute: capital-loss
+Generalization error (5-fold cross-validation): 0.40855948290544
+Generalization error (5-fold cross-validation): 0.41200802329485153
+Generalization error (5-fold cross-validation): 0.41297668945062943
+Generalization error (5-fold cross-validation): 0.41578433012131966
+Generalization error (5-fold cross-validation): 0.421662963089636
+Generalization error (5-fold cross-validation): 0.42480250727077123
+Generalization error (5-fold cross-validation): 0.42893095142629506
+Generalization error (5-fold cross-validation): 0.4305817814005192
+Generalization error (5-fold cross-validation): 0.4329928149484397
+Generalization error (5-fold cross-validation): 0.44101678573503333
+Generalization error (5-fold cross-validation): 0.44317900397982024
+Generalization error (5-fold cross-validation): 0.4438697775066492
+Generalization error (5-fold cross-validation): 0.4494262132185774
+Generalization error (5-fold cross-validation): 0.45260699969696605
+Generalization error (5-fold cross-validation): 0.45629894178624003
+
+(2) Performing two-level 5-5-fold cross validation.
+>> Predicted attribute: capital-gain
+Generalization error (5-5-fold cross-validation) for Baseline Regression: 0.2690809340009677
+Generalization error (5-5-fold cross-validation) for Regularized Linear Regression: 0.24991089252562554
+Generalization error (5-5-fold cross-validation) for Artificial Neural Network: 0.24373594704550788
+>> Predicted attribute: capital-loss
+Generalization error (5-5-fold cross-validation) for Baseline Regression: 0.41685764065505687
+Generalization error (5-5-fold cross-validation) for Regularized Linear Regression: 0.4089305489152118
+Generalization error (5-5-fold cross-validation) for Artificial Neural Network: 0.4139469761415363
+
+(3) Performing paired t-tests.
+>> Predicted attribute: capital-gain
+Performing first paired test.
+Model A: Artificial Neural Network
+Model B: Linear Regression
+Confidence interval: (-0.10240505587164947, -0.021575155654742405)
+p-value: 0.0013248618634386854
+Performing second paired test.
+Model A: Artificial Neural Network
+Model B: Regularized Linear Regression
+Confidence interval: (-0.030135575895522286, 0.010637601241686287)
+p-value: 0.1742844560147398
+Performing third paired test.
+Model A: Regularized Linear Regression
+Model B: Linear Regression
+Confidence interval: (-0.07450171649245527, -0.029980520380100635)
+p-value: 2.146094308826668e-06
+>> Predicted attribute: capital-loss
+Performing first paired test.
+Model A: Artificial Neural Network
+Model B: Linear Regression
+Confidence interval: (-0.03751038424019449, -0.01100732269045116)
+p-value: 0.0001675120049111432
+Performing second paired test.
+Model A: Artificial Neural Network
+Model B: Regularized Linear Regression
+Confidence interval: (-0.005959062458277395, 0.0018002610350028887)
+p-value: 0.14671750998710562
+Performing third paired test.
+Model A: Regularized Linear Regression
+Model B: Linear Regression
+Confidence interval: (-0.03228232986013231, -0.012076575647238845)
+p-value: 8.536324205681291e-06

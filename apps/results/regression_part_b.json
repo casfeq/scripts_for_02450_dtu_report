@@ -1,0 +1,156 @@
+{
+	"Optimal_n_hidden_units": {
+		"capital-gain": 2,
+		"capital-loss": 1
+	},
+	"2_level_cross_validation": {
+		"capital-gain": {
+			"Baseline_regression": {
+				"Errors": [
+					0.2699513916567323,
+					0.26298842644133047,
+					0.2754677148695378,
+					0.27152301195883904,
+					0.26547470248329774
+				]
+			},
+			"Regularized_linear_regression": {
+				"Errors": [
+					0.24909991301374987,
+					0.24431484608376466,
+					0.2581225968146974,
+					0.25122971414372186,
+					0.24678810100053913
+				],
+				"Params": [
+					30000.0,
+					35000.0,
+					30000.0,
+					35000.0,
+					30000.0
+				]
+			},
+			"Artificial_neural_network": {
+				"Errors": [
+					0.2547880539531154,
+					0.2484724907041664,
+					0.24448881755149465,
+					0.24161976452639286,
+					0.22930886273268794
+				],
+				"Params": [
+					2,
+					2,
+					2,
+					3,
+					2
+				]
+			}
+		},
+		"capital-loss": {
+			"Baseline_regression": {
+				"Errors": [
+					0.41824724310064887,
+					0.4162089830514585,
+					0.4109556096211754,
+					0.4203895067510308,
+					0.4184867788242966
+				]
+			},
+			"Regularized_linear_regression": {
+				"Errors": [
+					0.4085264735794657,
+					0.4092008616849106,
+					0.40345776638855546,
+					0.41131236353851763,
+					0.4121552941748095
+				],
+				"Params": [
+					15000.0,
+					15000.0,
+					15000.0,
+					15000.0,
+					15000.0
+				]
+			},
+			"Artificial_neural_network": {
+				"Errors": [
+					0.4099738344074567,
+					0.4116203723989388,
+					0.406240516658007,
+					0.43258205935385163,
+					0.4093187944557116
+				],
+				"Params": [
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			}
+		}
+	},
+	"Paired_t_tests": {
+		"Test_1": {
+			"capital-gain": {
+				"Model_a": "Artificial_neural_network",
+				"Model_b": "Baseline_regression",
+				"confidence_interval": [
+					-0.10240505587164947,
+					-0.021575155654742405
+				],
+				"p-value": 0.0013248618634386854
+			},
+			"capital-loss": {
+				"Model_a": "Artificial_neural_network",
+				"Model_b": "Baseline_regression",
+				"confidence_interval": [
+					-0.03751038424019449,
+					-0.01100732269045116
+				],
+				"p-value": 0.0001675120049111432
+			}
+		},
+		"Test_2": {
+			"capital-gain": {
+				"Model_a": "Artificial_neural_network",
+				"Model_b": "Regularized_linear_regression",
+				"confidence_interval": [
+					-0.030135575895522286,
+					0.010637601241686287
+				],
+				"p-value": 0.1742844560147398
+			},
+			"capital-loss": {
+				"Model_a": "Artificial_neural_network",
+				"Model_b": "Regularized_linear_regression",
+				"confidence_interval": [
+					-0.005959062458277395,
+					0.0018002610350028887
+				],
+				"p-value": 0.14671750998710562
+			}
+		},
+		"Test_3": {
+			"capital-gain": {
+				"Model_a": "Regularized_linear_regression",
+				"Model_b": "Baseline_regression",
+				"confidence_interval": [
+					-0.07450171649245527,
+					-0.029980520380100635
+				],
+				"p-value": 2.146094308826668e-06
+			},
+			"capital-loss": {
+				"Model_a": "Regularized_linear_regression",
+				"Model_b": "Baseline_regression",
+				"confidence_interval": [
+					-0.03228232986013231,
+					-0.012076575647238845
+				],
+				"p-value": 8.536324205681291e-06
+			}
+		}
+	}
+}

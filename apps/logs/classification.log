@@ -1,0 +1,182 @@
+(1) Finding optimal number of max depth for Decision Tree Classifier.
+>> Predicted attribute: annual-income
+Generalization error (10-fold cross-validation): 0.2478439697492371
+Generalization error (10-fold cross-validation): 0.17588784220069875
+Generalization error (10-fold cross-validation): 0.16043076378753704
+Generalization error (10-fold cross-validation): 0.1600990668258812
+Generalization error (10-fold cross-validation): 0.15399584273141392
+Generalization error (10-fold cross-validation): 0.14875503073725177
+Generalization error (10-fold cross-validation): 0.14871080447569765
+Generalization error (10-fold cross-validation): 0.14866657821414353
+Generalization error (10-fold cross-validation): 0.14563707929768696
+Generalization error (10-fold cross-validation): 0.14486311972049
+Generalization error (10-fold cross-validation): 0.14722922471363492
+Generalization error (10-fold cross-validation): 0.14826854186015656
+Generalization error (10-fold cross-validation): 0.14842333377559594
+Generalization error (10-fold cross-validation): 0.14975012162221926
+Generalization error (10-fold cross-validation): 0.15430542656229265
+Generalization error (10-fold cross-validation): 0.15605236389368007
+Generalization error (10-fold cross-validation): 0.15877227897925789
+Generalization error (10-fold cross-validation): 0.1602980850028747
+Generalization error (10-fold cross-validation): 0.16376984653487242
+Generalization error (10-fold cross-validation): 0.1670868161514307
+Generalization error (10-fold cross-validation): 0.1695192605369068
+Generalization error (10-fold cross-validation): 0.17071336959886782
+Generalization error (10-fold cross-validation): 0.1741851311308655
+Generalization error (10-fold cross-validation): 0.1772588563088762
+Generalization error (10-fold cross-validation): 0.17759055327053203
+Generalization error (10-fold cross-validation): 0.1808854097563133
+Generalization error (10-fold cross-validation): 0.17977975321746054
+Generalization error (10-fold cross-validation): 0.18026624209455572
+Generalization error (10-fold cross-validation): 0.1825217814338154
+Generalization error (10-fold cross-validation): 0.18353898544955996
+Generalization error (10-fold cross-validation): 0.1846446419884127
+Generalization error (10-fold cross-validation): 0.18548494095794082
+Generalization error (10-fold cross-validation): 0.1856839591349343
+Generalization error (10-fold cross-validation): 0.1850426783423997
+Generalization error (10-fold cross-validation): 0.18530803591172437
+Generalization error (10-fold cross-validation): 0.18603776922736717
+Generalization error (10-fold cross-validation): 0.18546282782716375
+Generalization error (10-fold cross-validation): 0.18594931670425896
+Generalization error (10-fold cross-validation): 0.18729821768165938
+Generalization error (10-fold cross-validation): 0.1871876520277741
+Generalization error (10-fold cross-validation): 0.1861262217504754
+Generalization error (10-fold cross-validation): 0.18592720357348191
+Generalization error (10-fold cross-validation): 0.18709919950466586
+Generalization error (10-fold cross-validation): 0.18756357525098405
+Generalization error (10-fold cross-validation): 0.18760780151253814
+Generalization error (10-fold cross-validation): 0.18586086418115075
+Generalization error (10-fold cross-validation): 0.1884702136128433
+Generalization error (10-fold cross-validation): 0.18665693688912477
+Generalization error (10-fold cross-validation): 0.18767414090486928
+Generalization error (10-fold cross-validation): 0.18889036309760732
+
+(2) Finding optimal number of regularization parameter for Logistic Regression.
+>> Predicted attribute: annual-income
+Generalization error (10-fold cross-validation): 0.20817301313519967
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.2087479545354031
+Generalization error (10-fold cross-validation): 0.20565211622661533
+Generalization error (10-fold cross-validation): 0.2087479545354031
+Generalization error (10-fold cross-validation): 0.20792976869665206
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.2078634293043209
+Generalization error (10-fold cross-validation): 0.20768652425810444
+Generalization error (10-fold cross-validation): 0.20762018486577327
+Generalization error (10-fold cross-validation): 0.2087479545354031
+Generalization error (10-fold cross-validation): 0.20753173234266506
+Generalization error (10-fold cross-validation): 0.20868161514307193
+Generalization error (10-fold cross-validation): 0.2075538454734421
+Generalization error (10-fold cross-validation): 0.20877006766618014
+Generalization error (10-fold cross-validation): 0.20877006766618014
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20762018486577327
+Generalization error (10-fold cross-validation): 0.20762018486577327
+Generalization error (10-fold cross-validation): 0.20764229799655032
+Generalization error (10-fold cross-validation): 0.2069125646809075
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20779708991198972
+Generalization error (10-fold cross-validation): 0.20779708991198972
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.2087479545354031
+Generalization error (10-fold cross-validation): 0.20757595860421915
+Generalization error (10-fold cross-validation): 0.2087479545354031
+Generalization error (10-fold cross-validation): 0.20779708991198972
+Generalization error (10-fold cross-validation): 0.2077528636504356
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20777497678121265
+Generalization error (10-fold cross-validation): 0.20777497678121265
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.2089027464508425
+Generalization error (10-fold cross-validation): 0.20804033435053734
+Generalization error (10-fold cross-validation): 0.20892485958161958
+Generalization error (10-fold cross-validation): 0.20892485958161958
+Generalization error (10-fold cross-validation): 0.20892485958161958
+Generalization error (10-fold cross-validation): 0.20777497678121265
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20770863738888148
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20773075051965856
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20773075051965856
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.2076644111273274
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20733271416567153
+Generalization error (10-fold cross-validation): 0.20733271416567153
+Generalization error (10-fold cross-validation): 0.2073106010348945
+Generalization error (10-fold cross-validation): 0.20733271416567153
+Generalization error (10-fold cross-validation): 0.20868161514307196
+Generalization error (10-fold cross-validation): 0.20759807173499623
+Generalization error (10-fold cross-validation): 0.20762018486577327
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20868161514307196
+Generalization error (10-fold cross-validation): 0.20868161514307196
+Generalization error (10-fold cross-validation): 0.20759807173499623
+Generalization error (10-fold cross-validation): 0.20868161514307196
+Generalization error (10-fold cross-validation): 0.20868161514307196
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20872584140462605
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+Generalization error (10-fold cross-validation): 0.20865950201229488
+
+(3) Performing two-level 10-10-fold cross validation.
+>> Predicted attribute: annual-income
+Generalization error (10-10-fold cross-validation) for Baseline Classifier: 0.2478439697492371
+Generalization error (10-10-fold cross-validation) for Decision Tree Classifier: 0.1458139843439034
+Generalization error (10-10-fold cross-validation) for Regularized Logistic Regression: 0.20868161514307196
+
+(4) Performing paired McNemar tests.
+>> Predicted attribute: annual-income
+Performing first paired test.
+Model A: Regularized Logistic Regression
+Model B: Baseline Classifier
+Theta: 0.035374751271280126
+Confidence interval: (0.026682460520407902, 0.04406440344120499)
+p-value: 1.5175383703304869e-15
+Performing second paired test.
+Model A: Regularized Logistic Regression
+Model B: Decision Tree Classifier
+Theta: -0.05527304886137519
+Confidence interval: (-0.06651975504567964, -0.044019421732748976)
+p-value: 7.941358174558772e-22
+Performing third paired test.
+Model A: Decision Tree Classifier
+Model B: Baseline Classifier
+Theta: 0.09064780013265532
+Confidence interval: (0.07850282930044417, 0.1027794888475575)
+p-value: 3.3328787117911933e-48

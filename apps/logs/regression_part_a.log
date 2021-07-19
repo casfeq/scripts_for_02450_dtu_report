@@ -1,0 +1,297 @@
+(1) Finding optimal regularization parameter.
+>> Predicted attribute: capital-gain
+Generalization error (10-fold cross-validation): 0.2669339970563644
+Generalization error (10-fold cross-validation): 0.2648572351374907
+Generalization error (10-fold cross-validation): 0.26304465191862103
+Generalization error (10-fold cross-validation): 0.2614594333182838
+Generalization error (10-fold cross-validation): 0.2600702197793345
+Generalization error (10-fold cross-validation): 0.2588515433660231
+Generalization error (10-fold cross-validation): 0.25778274301235626
+Generalization error (10-fold cross-validation): 0.25684801807063495
+Generalization error (10-fold cross-validation): 0.25602624394349305
+Generalization error (10-fold cross-validation): 0.2552994932195551
+Generalization error (10-fold cross-validation): 0.25465514961774327
+Generalization error (10-fold cross-validation): 0.25408540206624236
+Generalization error (10-fold cross-validation): 0.2535803537289704
+Generalization error (10-fold cross-validation): 0.2531338987220158
+Generalization error (10-fold cross-validation): 0.25273771259068284
+Generalization error (10-fold cross-validation): 0.25238882518402744
+Generalization error (10-fold cross-validation): 0.2520812929689389
+Generalization error (10-fold cross-validation): 0.2518086531294634
+Generalization error (10-fold cross-validation): 0.2515679528597185
+Generalization error (10-fold cross-validation): 0.2513524344685337
+Generalization error (10-fold cross-validation): 0.2511602859280045
+Generalization error (10-fold cross-validation): 0.2509877536215057
+Generalization error (10-fold cross-validation): 0.2508316265249485
+Generalization error (10-fold cross-validation): 0.2506896130145453
+Generalization error (10-fold cross-validation): 0.2505623441941982
+Generalization error (10-fold cross-validation): 0.25044850873699703
+Generalization error (10-fold cross-validation): 0.2503460756237017
+Generalization error (10-fold cross-validation): 0.2502563163880041
+Generalization error (10-fold cross-validation): 0.2501759971305587
+Generalization error (10-fold cross-validation): 0.25010386285818986
+Generalization error (10-fold cross-validation): 0.2500410576793536
+Generalization error (10-fold cross-validation): 0.2499867697930546
+Generalization error (10-fold cross-validation): 0.24994006189721327
+Generalization error (10-fold cross-validation): 0.24990031350135683
+Generalization error (10-fold cross-validation): 0.24986665950523318
+Generalization error (10-fold cross-validation): 0.2498391896948755
+Generalization error (10-fold cross-validation): 0.24981716637378618
+Generalization error (10-fold cross-validation): 0.249800080295961
+Generalization error (10-fold cross-validation): 0.24978714125218876
+Generalization error (10-fold cross-validation): 0.2497776410391071
+Generalization error (10-fold cross-validation): 0.24977156502696554
+Generalization error (10-fold cross-validation): 0.24976890236475102
+Generalization error (10-fold cross-validation): 0.24976900854203696
+Generalization error (10-fold cross-validation): 0.24977177427759045
+Generalization error (10-fold cross-validation): 0.24977703188984987
+Generalization error (10-fold cross-validation): 0.24978544160308389
+Generalization error (10-fold cross-validation): 0.24979625796472654
+Generalization error (10-fold cross-validation): 0.24980910603476372
+Generalization error (10-fold cross-validation): 0.24982411831664836
+Generalization error (10-fold cross-validation): 0.24984123263967997
+Generalization error (10-fold cross-validation): 0.24985988364747774
+Generalization error (10-fold cross-validation): 0.24988038948616617
+Generalization error (10-fold cross-validation): 0.2499021250093537
+Generalization error (10-fold cross-validation): 0.24992533996327154
+Generalization error (10-fold cross-validation): 0.2499497828240669
+Generalization error (10-fold cross-validation): 0.24997494270854187
+Generalization error (10-fold cross-validation): 0.25000159510155046
+Generalization error (10-fold cross-validation): 0.2500298825589163
+Generalization error (10-fold cross-validation): 0.2500589634510189
+Generalization error (10-fold cross-validation): 0.25008871370443925
+Generalization error (10-fold cross-validation): 0.25011974531781983
+Generalization error (10-fold cross-validation): 0.25015215465724294
+Generalization error (10-fold cross-validation): 0.2501855833865965
+Generalization error (10-fold cross-validation): 0.25021981975061525
+Generalization error (10-fold cross-validation): 0.25025510209279334
+Generalization error (10-fold cross-validation): 0.25029177572926486
+Generalization error (10-fold cross-validation): 0.2503292966843656
+Generalization error (10-fold cross-validation): 0.25036787887052103
+Generalization error (10-fold cross-validation): 0.25040735324659286
+Generalization error (10-fold cross-validation): 0.25044783586704245
+Generalization error (10-fold cross-validation): 0.2504892890938275
+Generalization error (10-fold cross-validation): 0.2505312545443852
+Generalization error (10-fold cross-validation): 0.25057410405277886
+Generalization error (10-fold cross-validation): 0.25061735238554206
+Generalization error (10-fold cross-validation): 0.2506611391189456
+Generalization error (10-fold cross-validation): 0.2507058881404626
+Generalization error (10-fold cross-validation): 0.2507512663602609
+Generalization error (10-fold cross-validation): 0.2507973066028846
+Generalization error (10-fold cross-validation): 0.25084371983403775
+Generalization error (10-fold cross-validation): 0.250890728262646
+Generalization error (10-fold cross-validation): 0.2509381394913959
+Generalization error (10-fold cross-validation): 0.25098612198940157
+Generalization error (10-fold cross-validation): 0.25103441075604954
+Generalization error (10-fold cross-validation): 0.2510833567682326
+Generalization error (10-fold cross-validation): 0.25113311081799733
+Generalization error (10-fold cross-validation): 0.2511832669661452
+Generalization error (10-fold cross-validation): 0.2512338011036197
+Generalization error (10-fold cross-validation): 0.25128459450755697
+Generalization error (10-fold cross-validation): 0.2513356020099055
+Generalization error (10-fold cross-validation): 0.25138685251534465
+Generalization error (10-fold cross-validation): 0.25143823850857294
+Generalization error (10-fold cross-validation): 0.25148971416183746
+Generalization error (10-fold cross-validation): 0.251541387803931
+Generalization error (10-fold cross-validation): 0.25159346523914566
+Generalization error (10-fold cross-validation): 0.2516456772433348
+Generalization error (10-fold cross-validation): 0.2516979228036024
+Generalization error (10-fold cross-validation): 0.2517503951037246
+Generalization error (10-fold cross-validation): 0.2518031020410267
+Generalization error (10-fold cross-validation): 0.2518561987739622
+Generalization error (10-fold cross-validation): 0.251909422382756
+>> Predicted attribute: capital-loss
+Generalization error (10-fold cross-validation): 0.4101118470750017
+Generalization error (10-fold cross-validation): 0.40992029358788856
+Generalization error (10-fold cross-validation): 0.40975536353811515
+Generalization error (10-fold cross-validation): 0.4096127664726788
+Generalization error (10-fold cross-validation): 0.40948900497786545
+Generalization error (10-fold cross-validation): 0.4093790614833455
+Generalization error (10-fold cross-validation): 0.40928211001525777
+Generalization error (10-fold cross-validation): 0.4091972036363234
+Generalization error (10-fold cross-validation): 0.4091227689312756
+Generalization error (10-fold cross-validation): 0.4090578267329667
+Generalization error (10-fold cross-validation): 0.4090024133412704
+Generalization error (10-fold cross-validation): 0.4089586519953898
+Generalization error (10-fold cross-validation): 0.408924635370567
+Generalization error (10-fold cross-validation): 0.40889623076433357
+Generalization error (10-fold cross-validation): 0.4088751171045124
+Generalization error (10-fold cross-validation): 0.4088618577399806
+Generalization error (10-fold cross-validation): 0.40885414042677015
+Generalization error (10-fold cross-validation): 0.4088526200924489
+Generalization error (10-fold cross-validation): 0.4088560575414878
+Generalization error (10-fold cross-validation): 0.40886440516875155
+Generalization error (10-fold cross-validation): 0.40887547867966434
+Generalization error (10-fold cross-validation): 0.4088895705728532
+Generalization error (10-fold cross-validation): 0.4089059086782523
+Generalization error (10-fold cross-validation): 0.40892483140940306
+Generalization error (10-fold cross-validation): 0.408945103271232
+Generalization error (10-fold cross-validation): 0.4089671141368021
+Generalization error (10-fold cross-validation): 0.40899080426503664
+Generalization error (10-fold cross-validation): 0.40901683933551286
+Generalization error (10-fold cross-validation): 0.4090448876700379
+Generalization error (10-fold cross-validation): 0.40907529380316987
+Generalization error (10-fold cross-validation): 0.409106860430548
+Generalization error (10-fold cross-validation): 0.40913951957362077
+Generalization error (10-fold cross-validation): 0.4091735495577933
+Generalization error (10-fold cross-validation): 0.40920886435683024
+Generalization error (10-fold cross-validation): 0.40924501130302016
+Generalization error (10-fold cross-validation): 0.40928237059718436
+Generalization error (10-fold cross-validation): 0.40931982290112523
+Generalization error (10-fold cross-validation): 0.4093578650753984
+Generalization error (10-fold cross-validation): 0.40939618098530534
+Generalization error (10-fold cross-validation): 0.4094350317367422
+Generalization error (10-fold cross-validation): 0.40947465122857335
+Generalization error (10-fold cross-validation): 0.4095144492377643
+Generalization error (10-fold cross-validation): 0.40955401319379725
+Generalization error (10-fold cross-validation): 0.4095934607506292
+Generalization error (10-fold cross-validation): 0.4096331247014731
+Generalization error (10-fold cross-validation): 0.4096731702357078
+Generalization error (10-fold cross-validation): 0.4097134441997703
+Generalization error (10-fold cross-validation): 0.4097539067589053
+Generalization error (10-fold cross-validation): 0.40979397756760816
+Generalization error (10-fold cross-validation): 0.40983365624346185
+Generalization error (10-fold cross-validation): 0.40987341961539336
+Generalization error (10-fold cross-validation): 0.4099132368299775
+Generalization error (10-fold cross-validation): 0.40995313870656164
+Generalization error (10-fold cross-validation): 0.4099926755814003
+Generalization error (10-fold cross-validation): 0.4100321849787165
+Generalization error (10-fold cross-validation): 0.4100712566943942
+Generalization error (10-fold cross-validation): 0.41011013866547735
+Generalization error (10-fold cross-validation): 0.4101489638111202
+Generalization error (10-fold cross-validation): 0.4101873374482988
+Generalization error (10-fold cross-validation): 0.41022513200982447
+Generalization error (10-fold cross-validation): 0.41026260976833195
+Generalization error (10-fold cross-validation): 0.41029970494454826
+Generalization error (10-fold cross-validation): 0.41033633670076536
+Generalization error (10-fold cross-validation): 0.4103729733833703
+Generalization error (10-fold cross-validation): 0.4104093857009746
+Generalization error (10-fold cross-validation): 0.41044539071809477
+Generalization error (10-fold cross-validation): 0.4104809277850688
+Generalization error (10-fold cross-validation): 0.4105159735404308
+Generalization error (10-fold cross-validation): 0.41055053477698905
+Generalization error (10-fold cross-validation): 0.410584659685007
+Generalization error (10-fold cross-validation): 0.4106183597922052
+Generalization error (10-fold cross-validation): 0.4106518153208917
+Generalization error (10-fold cross-validation): 0.4106848417013
+Generalization error (10-fold cross-validation): 0.4107174865409997
+Generalization error (10-fold cross-validation): 0.4107497598203895
+Generalization error (10-fold cross-validation): 0.4107817369912301
+Generalization error (10-fold cross-validation): 0.41081343323280384
+Generalization error (10-fold cross-validation): 0.41084477056982743
+Generalization error (10-fold cross-validation): 0.41087577444391304
+Generalization error (10-fold cross-validation): 0.41090645931498887
+Generalization error (10-fold cross-validation): 0.4109367689661049
+Generalization error (10-fold cross-validation): 0.41096670858900713
+Generalization error (10-fold cross-validation): 0.4109963497764206
+Generalization error (10-fold cross-validation): 0.41102566104638477
+Generalization error (10-fold cross-validation): 0.41105462375501484
+Generalization error (10-fold cross-validation): 0.41108324514588207
+Generalization error (10-fold cross-validation): 0.411111611554191
+Generalization error (10-fold cross-validation): 0.411139656446523
+Generalization error (10-fold cross-validation): 0.4111674500918467
+Generalization error (10-fold cross-validation): 0.4111949538887717
+Generalization error (10-fold cross-validation): 0.41122216315006005
+Generalization error (10-fold cross-validation): 0.4112490672995039
+Generalization error (10-fold cross-validation): 0.4112756722568282
+Generalization error (10-fold cross-validation): 0.41130198377128235
+Generalization error (10-fold cross-validation): 0.41132800742818315
+Generalization error (10-fold cross-validation): 0.4113537486551475
+Generalization error (10-fold cross-validation): 0.4113792127280305
+Generalization error (10-fold cross-validation): 0.4114044910899159
+Generalization error (10-fold cross-validation): 0.41142958651944567
+Generalization error (10-fold cross-validation): 0.4114545028691915
+
+(2) Getting coefficients for optimal regularization parameter.
+>> Predicted attribute: capital-gain
+Attributes: ['age' 'Federal-gov' 'Local-gov' 'Private' 'Self-emp-inc'
+ 'Self-emp-not-inc' 'State-gov' 'Without-pay' 'fnlwgt' '10th' '11th'
+ '12th' '1st-4th' '5th-6th' '7th-8th' '9th' 'Assoc-acdm' 'Assoc-voc'
+ 'Bachelors' 'Doctorate' 'HS-grad' 'Masters' 'Preschool' 'Prof-school'
+ 'Some-college' 'education-num' 'Divorced' 'Married-AF-spouse'
+ 'Married-civ-spouse' 'Married-spouse-absent' 'Never-married' 'Separated'
+ 'Widowed' 'Adm-clerical' 'Armed-Forces' 'Craft-repair' 'Exec-managerial'
+ 'Farming-fishing' 'Handlers-cleaners' 'Machine-op-inspct' 'Other-service'
+ 'Priv-house-serv' 'Prof-specialty' 'Protective-serv' 'Sales'
+ 'Tech-support' 'Transport-moving' 'Husband' 'Not-in-family'
+ 'Other-relative' 'Own-child' 'Unmarried' 'Wife' 'Amer-Indian-Eskimo'
+ 'Asian-Pac-Islander' 'Black' 'Other' 'White' 'sex' 'capital-loss'
+ 'hours-per-week' 'Cambodia' 'Canada' 'China' 'Columbia' 'Cuba'
+ 'Dominican-Republic' 'Ecuador' 'El-Salvador' 'England' 'France' 'Germany'
+ 'Greece' 'Guatemala' 'Haiti' 'Holand-Netherlands' 'Honduras' 'Hong'
+ 'Hungary' 'India' 'Iran' 'Ireland' 'Italy' 'Jamaica' 'Japan' 'Laos'
+ 'Mexico' 'Nicaragua' 'Outlying-US(Guam-USVI-etc)' 'Peru' 'Philippines'
+ 'Poland' 'Portugal' 'Puerto-Rico' 'Scotland' 'South' 'Taiwan' 'Thailand'
+ 'Trinadad&Tobago' 'United-States' 'Vietnam' 'Yugoslavia' 'annual-income']
+Coefficients [ 2.00327139e-02 -7.56194062e-03 -1.15459713e-02 -4.57662627e-03
+  3.63544229e-02  5.60080734e-03 -1.03843291e-02 -3.77180504e-04
+  8.30599169e-04 -5.43331550e-04 -1.39768642e-03 -2.02690654e-03
+  1.76058250e-04  1.70042573e-03 -1.23165328e-03  9.93399726e-08
+ -9.28759879e-03 -5.97324188e-03 -1.10931745e-03  2.50022744e-02
+ -1.03622567e-02  6.69351031e-03  2.76456456e-03  7.40301878e-02
+ -1.28692120e-02  2.75003430e-02  7.65996792e-04  3.59913759e-03
+  2.95484901e-03 -1.00567324e-04 -3.61288082e-03  6.08589954e-04
+ -1.45113962e-03 -3.18034674e-03 -6.60592028e-04 -6.18397439e-03
+  1.15133256e-02 -3.40622082e-03 -2.31118412e-03 -5.84139121e-03
+ -3.29935339e-03 -2.93418110e-04  1.34854962e-02 -2.10281572e-03
+  2.99323898e-03 -4.53587100e-03 -7.37912459e-03  2.82036852e-03
+ -4.06073556e-04 -1.91162113e-03 -8.46319520e-04 -3.09681591e-03
+  1.74573560e-03 -4.35468884e-04 -8.31763711e-05 -1.07445508e-04
+  2.89146871e-03 -4.81002001e-04  5.61582766e-03 -3.14397747e-02
+  2.05118625e-02 -3.45532676e-04 -9.66718566e-04 -4.96867824e-04
+ -1.74665746e-03 -3.40589872e-03  2.22694086e-03 -7.83857377e-04
+  3.14879785e-04 -1.75994311e-03 -3.02870967e-03 -8.45951816e-04
+ -1.39422536e-03  1.02712052e-05 -7.09494024e-04  4.32984580e-04
+ -9.30495139e-04 -1.03351534e-03 -1.64185268e-03  3.23089987e-03
+ -5.03046455e-04 -9.81118926e-04 -1.53709617e-03 -8.02579864e-04
+  7.79356265e-04 -8.13266226e-04  1.31128358e-03 -5.55186193e-04
+ -9.07688481e-04 -1.15775053e-03  1.79220518e-03 -1.78897794e-03
+ -1.29183960e-03 -5.65434475e-04 -1.31756023e-03 -1.49417517e-03
+ -8.58610937e-04 -1.97519031e-03 -6.93951968e-04  2.41640783e-03
+  4.58976948e-04 -4.41239239e-04  9.01403457e-02]
+>> Predicted attribute: capital-loss
+Attributes: ['age' 'Federal-gov' 'Local-gov' 'Private' 'Self-emp-inc'
+ 'Self-emp-not-inc' 'State-gov' 'Without-pay' 'fnlwgt' '10th' '11th'
+ '12th' '1st-4th' '5th-6th' '7th-8th' '9th' 'Assoc-acdm' 'Assoc-voc'
+ 'Bachelors' 'Doctorate' 'HS-grad' 'Masters' 'Preschool' 'Prof-school'
+ 'Some-college' 'education-num' 'Divorced' 'Married-AF-spouse'
+ 'Married-civ-spouse' 'Married-spouse-absent' 'Never-married' 'Separated'
+ 'Widowed' 'Adm-clerical' 'Armed-Forces' 'Craft-repair' 'Exec-managerial'
+ 'Farming-fishing' 'Handlers-cleaners' 'Machine-op-inspct' 'Other-service'
+ 'Priv-house-serv' 'Prof-specialty' 'Protective-serv' 'Sales'
+ 'Tech-support' 'Transport-moving' 'Husband' 'Not-in-family'
+ 'Other-relative' 'Own-child' 'Unmarried' 'Wife' 'Amer-Indian-Eskimo'
+ 'Asian-Pac-Islander' 'Black' 'Other' 'White' 'sex' 'capital-gain'
+ 'hours-per-week' 'Cambodia' 'Canada' 'China' 'Columbia' 'Cuba'
+ 'Dominican-Republic' 'Ecuador' 'El-Salvador' 'England' 'France' 'Germany'
+ 'Greece' 'Guatemala' 'Haiti' 'Holand-Netherlands' 'Honduras' 'Hong'
+ 'Hungary' 'India' 'Iran' 'Ireland' 'Italy' 'Jamaica' 'Japan' 'Laos'
+ 'Mexico' 'Nicaragua' 'Outlying-US(Guam-USVI-etc)' 'Peru' 'Philippines'
+ 'Poland' 'Portugal' 'Puerto-Rico' 'Scotland' 'South' 'Taiwan' 'Thailand'
+ 'Trinadad&Tobago' 'United-States' 'Vietnam' 'Yugoslavia' 'annual-income']
+Coefficients [ 1.59468407e-02 -2.83918927e-04  1.88745628e-04 -2.93265781e-03
+  1.07071340e-02  2.98830473e-03 -7.69380813e-03  9.70112741e-04
+  4.32079280e-04  7.65086739e-04 -8.80530742e-04 -5.49570895e-03
+  2.16721926e-03  5.17399232e-03 -7.48318346e-04 -3.68646109e-03
+ -1.87931329e-03 -9.03903835e-03  4.77530622e-03  1.67134027e-02
+ -8.54187664e-03  1.32738129e-02  1.27109298e-03  2.36129322e-02
+ -7.39410508e-03  1.73000014e-02 -1.73566077e-03 -2.37556958e-03
+  6.00820071e-03 -1.22951787e-03 -5.73760100e-03  8.13905377e-05
+  2.84060466e-03 -2.50554788e-03  1.14474237e-03 -4.38801069e-03
+  1.35447846e-02 -7.22482315e-03 -4.59464402e-03 -3.52023598e-03
+ -7.42464649e-03 -3.42864317e-04  5.04949888e-03 -2.01740370e-03
+  5.26607118e-03  2.22455177e-03 -1.76682948e-03  4.68187811e-03
+  3.17369769e-03 -1.52807644e-04 -4.87889053e-03 -8.79652803e-03
+  3.63261822e-03 -4.29003490e-03 -3.76954236e-03 -1.43815311e-03
+ -1.89978116e-05  4.23886686e-03  1.06466593e-02 -4.95703225e-02
+  1.30329877e-02  3.02362233e-03  4.22920198e-03  7.53359064e-03
+  1.45456173e-04 -3.15016687e-03 -8.13950449e-04 -3.89825620e-03
+ -3.01664921e-03  1.54619170e-04 -4.53205261e-03 -3.55678652e-03
+  3.47212302e-03 -2.49211544e-03  1.00434635e-03  1.82735753e-02
+  3.49940829e-03  8.25883043e-03 -7.96352573e-04  5.18292899e-05
+  7.42163220e-04  6.15293859e-04 -3.89092850e-03 -3.67399561e-03
+ -2.97039572e-03  9.16344990e-04 -5.77396038e-03  7.48515084e-04
+ -2.42203920e-03 -1.31746734e-03  1.83549920e-03 -2.59880581e-03
+ -4.91914661e-03  5.32951314e-03 -3.07143539e-03  2.84683523e-03
+ -1.01967580e-03 -1.27557920e-03  4.42266064e-03  2.55572962e-03
+  3.04475887e-03 -3.93456247e-03  8.44129140e-02]

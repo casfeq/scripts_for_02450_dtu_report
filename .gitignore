@@ -1,0 +1,14 @@
+# Compiled files
+*.pyc
+
+# Sublime files
+*.sublime-project
+*.sublime-workspace
+
+# Other files
+*.ignore
+*.csv
+
+# Folders
+.idea/
+__pycache__/
